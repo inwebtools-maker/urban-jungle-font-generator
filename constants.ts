@@ -1,0 +1,81 @@
+import { StylePreset } from './types';
+
+export const STYLE_PRESETS: StylePreset[] = [
+  {
+    id: 'viral-social',
+    name: 'Viral Social',
+    description: 'The classic viral trend: Bold white text obscured by misty jungle leaves.',
+    previewColor: 'from-green-500 to-emerald-700',
+    promptTemplate: "A viral photography style image of the word '${text}' written in a massive, bold, white sans-serif font. The text is situated deep within a moody, misty tropical jungle. Large monstera leaves and palm fronds partially obscure the letters in the foreground, creating depth. The background is a dense, foggy rainforest. Photorealistic, cinematic lighting, 8k resolution, high detail.",
+  },
+  {
+    id: 'mossy-ruins',
+    name: 'Mossy Ruins',
+    description: 'Ancient stone letters reclaimed by nature.',
+    previewColor: 'from-stone-500 to-green-900',
+    promptTemplate: "A 3D render of the word '${text}' formed from cracked, ancient grey stone blocks. The letters are heavily covered in thick green moss and small ferns. The setting is an overgrown jungle ruin with dappled sunlight filtering through the canopy. Realistic textures, macro photography style, 8k.",
+  },
+  {
+    id: 'neon-cyber',
+    name: 'Neon Cyber-Jungle',
+    description: 'Futuristic neon typography amidst dark flora.',
+    previewColor: 'from-purple-500 to-green-500',
+    promptTemplate: "The word '${text}' written in glowing, futuristic neon tubes (bright pink and electric blue). The neon text is nestled inside a dark, nighttime tropical garden with bioluminescent plants and wet, reflective tropical leaves. Cyberpunk meets nature, high contrast, bloom effect, cinematic.",
+  },
+  {
+    id: 'floral-bloom',
+    name: 'Floral Bloom',
+    description: 'Typography made entirely of vibrant flowers.',
+    previewColor: 'from-pink-500 to-rose-600',
+    promptTemplate: "The word '${text}' depicted as if grown entirely from vibrant, exotic tropical flowers (orchids, hibiscus, bird of paradise) and twisting vines. No solid letter forms, just the shape of the word formed by the dense floral arrangement. Bright daylight, botanical illustration style, hyper-realistic, 8k.",
+  },
+  {
+    id: 'icebound-relic',
+    name: 'Icebound Relic',
+    description: 'Glacial ice typography in a frozen tundra.',
+    previewColor: 'from-cyan-500 to-blue-900',
+    promptTemplate: "The word '${text}' carved from deep blue glacial ice, translucent and glowing. It is embedded in a snowy, frozen cliff face with icicles hanging from the letters. Snowflakes are falling. Cold, crisp, winter atmosphere, 8k photorealism.",
+  },
+  {
+    id: 'desert-oasis',
+    name: 'Desert Oasis',
+    description: 'Sandstone letters surrounded by cacti and heat.',
+    previewColor: 'from-orange-400 to-amber-700',
+    promptTemplate: "The word '${text}' formed from compacted red sand and sandstone. It is surrounded by blooming cacti, succulents, and desert flowers. Warm golden hour sunlight, heat haze, vibrant desert colors. High resolution photography.",
+  },
+  {
+    id: 'deep-sea',
+    name: 'Deep Sea Coral',
+    description: 'Colorful coral reefs forming text underwater.',
+    previewColor: 'from-blue-500 to-indigo-900',
+    promptTemplate: "The word '${text}' constructed from colorful coral reefs and sponges underwater. Schools of small tropical fish swim around the letters. Shafts of sunlight pierce through the deep blue water from above. National Geographic style, underwater photography, 4k.",
+  },
+  {
+    id: 'bamboo-structure',
+    name: 'Bamboo Structure',
+    description: 'Letters constructed from bamboo poles and rope.',
+    previewColor: 'from-yellow-600 to-green-700',
+    promptTemplate: "The word '${text}' constructed from realistic bamboo poles lashed together with rope. The bamboo typography is set against a backdrop of a dense bamboo forest with soft, green ambient lighting. Realistic, architectural, 4k.",
+  },
+  {
+    id: 'crystal-cavern',
+    name: 'Crystal Cavern',
+    description: 'Glowing amethyst crystals in a dark cave.',
+    previewColor: 'from-purple-600 to-fuchsia-900',
+    promptTemplate: "The word '${text}' formed from jagged, glowing amethyst and quartz crystals. The text is inside a dark cave, illuminated only by the internal glow of the crystals and bioluminescent mushrooms. Magical, mysterious, sparkling, high contrast.",
+  },
+  {
+    id: 'autumn-whisper',
+    name: 'Autumn Whisper',
+    description: 'Swirling fall leaves creating the text form.',
+    previewColor: 'from-red-500 to-orange-600',
+    promptTemplate: "The word '${text}' formed by a swirl of crisp autumn leaves (red, orange, yellow maple leaves). The background is a blurred forest in peak fall season. Soft, warm, nostalgic lighting. Macro details of leaf veins, 8k.",
+  },
+  {
+    id: 'volcanic-fern',
+    name: 'Volcanic Fern',
+    description: 'Charred rock and magma contrasting with fresh ferns.',
+    previewColor: 'from-orange-600 to-slate-900',
+    promptTemplate: "The word '${text}' made of cooling volcanic rock with glowing cracks of magma. Surrounding the hot letters are resilient, bright green ferns and tropical plants creating a stark contrast between fire and nature. Epic, dramatic lighting, 8k.",
+  },
+];
